@@ -1,0 +1,3423 @@
+[2021-09-18 18:18:22,591: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:18:22,591: ERROR: or] main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 40, in <module>
+    main(data=OR, modelName="or.model", plotName="or.png", eta=ETA, epochs=EPOCHS, test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2021-09-18 18:18:29,991: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:18:29,991: ERROR: or] main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 40, in <module>
+    main(data=OR, modelName="or.model", plotName="or.png", eta=ETA, epochs=EPOCHS, test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2021-09-18 18:18:46,091: INFO: or] 
+>>>>> starting training >>>>>
+[2021-09-18 18:18:46,091: ERROR: or] main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 40, in <module>
+    main(data=OR, modelName="or.model", plotName="or.png", eta=ETA, epochs=EPOCHS, test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2021-09-18 18:19:14,926: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:19:14,926: ERROR: or] main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 40, in <module>
+    main(data=OR, modelName="or.model", plotName="or.png", eta=ETA, epochs=EPOCHS, test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2021-09-18 18:19:16,796: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:19:16,796: ERROR: or] main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 40, in <module>
+    main(data=OR, modelName="or.model", plotName="or.png", eta=ETA, epochs=EPOCHS, test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2021-09-18 18:19:39,544: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:19:39,551: INFO: or] This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2021-09-18 18:19:39,551: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-18 18:19:39,551: INFO: model] initial weights before training: 
+[-6.79016832e-05  8.43186653e-05 -9.69271364e-05]
+[2021-09-18 18:19:39,552: INFO: model] X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2021-09-18 18:19:39,552: INFO: model] --------------------
+[2021-09-18 18:19:39,552: INFO: model] for epoch: 0
+[2021-09-18 18:19:39,552: INFO: model] --------------------
+[2021-09-18 18:19:39,552: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:19:39,552: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,553: INFO: model] updated weights after epoch:
+0/10 : 
+[-6.79016832e-05  8.43186653e-05  2.99903073e-01]
+[2021-09-18 18:19:39,553: INFO: model] ##################################################
+[2021-09-18 18:19:39,553: INFO: model] --------------------
+[2021-09-18 18:19:39,553: INFO: model] for epoch: 1
+[2021-09-18 18:19:39,553: INFO: model] --------------------
+[2021-09-18 18:19:39,553: INFO: model] predicted value after forward pass: 
+[0 0 0 0]
+[2021-09-18 18:19:39,553: INFO: model] error: 
+0    0
+1    1
+2    1
+3    1
+Name: y, dtype: int64
+[2021-09-18 18:19:39,554: INFO: model] updated weights after epoch:
+1/10 : 
+[ 0.5999321   0.60008432 -0.60009693]
+[2021-09-18 18:19:39,554: INFO: model] ##################################################
+[2021-09-18 18:19:39,554: INFO: model] --------------------
+[2021-09-18 18:19:39,554: INFO: model] for epoch: 2
+[2021-09-18 18:19:39,554: INFO: model] --------------------
+[2021-09-18 18:19:39,554: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:19:39,554: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,555: INFO: model] updated weights after epoch:
+2/10 : 
+[ 0.5999321   0.60008432 -0.30009693]
+[2021-09-18 18:19:39,555: INFO: model] ##################################################
+[2021-09-18 18:19:39,555: INFO: model] --------------------
+[2021-09-18 18:19:39,555: INFO: model] for epoch: 3
+[2021-09-18 18:19:39,555: INFO: model] --------------------
+[2021-09-18 18:19:39,556: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:19:39,556: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,557: INFO: model] updated weights after epoch:
+3/10 : 
+[ 5.99932098e-01  6.00084319e-01 -9.69271364e-05]
+[2021-09-18 18:19:39,557: INFO: model] ##################################################
+[2021-09-18 18:19:39,557: INFO: model] --------------------
+[2021-09-18 18:19:39,557: INFO: model] for epoch: 4
+[2021-09-18 18:19:39,557: INFO: model] --------------------
+[2021-09-18 18:19:39,558: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:19:39,558: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,559: INFO: model] updated weights after epoch:
+4/10 : 
+[0.5999321  0.60008432 0.29990307]
+[2021-09-18 18:19:39,559: INFO: model] ##################################################
+[2021-09-18 18:19:39,559: INFO: model] --------------------
+[2021-09-18 18:19:39,559: INFO: model] for epoch: 5
+[2021-09-18 18:19:39,559: INFO: model] --------------------
+[2021-09-18 18:19:39,559: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:19:39,560: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,560: INFO: model] updated weights after epoch:
+5/10 : 
+[0.5999321  0.60008432 0.29990307]
+[2021-09-18 18:19:39,560: INFO: model] ##################################################
+[2021-09-18 18:19:39,560: INFO: model] --------------------
+[2021-09-18 18:19:39,560: INFO: model] for epoch: 6
+[2021-09-18 18:19:39,560: INFO: model] --------------------
+[2021-09-18 18:19:39,560: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:19:39,561: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,561: INFO: model] updated weights after epoch:
+6/10 : 
+[0.5999321  0.60008432 0.29990307]
+[2021-09-18 18:19:39,561: INFO: model] ##################################################
+[2021-09-18 18:19:39,561: INFO: model] --------------------
+[2021-09-18 18:19:39,561: INFO: model] for epoch: 7
+[2021-09-18 18:19:39,561: INFO: model] --------------------
+[2021-09-18 18:19:39,562: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:19:39,562: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,562: INFO: model] updated weights after epoch:
+7/10 : 
+[0.5999321  0.60008432 0.29990307]
+[2021-09-18 18:19:39,563: INFO: model] ##################################################
+[2021-09-18 18:19:39,563: INFO: model] --------------------
+[2021-09-18 18:19:39,563: INFO: model] for epoch: 8
+[2021-09-18 18:19:39,563: INFO: model] --------------------
+[2021-09-18 18:19:39,563: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:19:39,563: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,564: INFO: model] updated weights after epoch:
+8/10 : 
+[0.5999321  0.60008432 0.29990307]
+[2021-09-18 18:19:39,564: INFO: model] ##################################################
+[2021-09-18 18:19:39,564: INFO: model] --------------------
+[2021-09-18 18:19:39,564: INFO: model] for epoch: 9
+[2021-09-18 18:19:39,564: INFO: model] --------------------
+[2021-09-18 18:19:39,564: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:19:39,565: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:19:39,565: INFO: model] updated weights after epoch:
+9/10 : 
+[0.5999321  0.60008432 0.29990307]
+[2021-09-18 18:19:39,565: INFO: model] ##################################################
+[2021-09-18 18:19:39,565: INFO: model] total loss: 0
+[2021-09-18 18:19:39,566: INFO: all_utils] saving the trained model
+[2021-09-18 18:19:39,571: INFO: all_utils] saved the trained model models\or.model
+[2021-09-18 18:19:39,571: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-18 18:19:39,572: INFO: all_utils] creating the base plot
+[2021-09-18 18:19:40,048: INFO: all_utils] plotting the decision regions
+[2021-09-18 18:19:40,190: INFO: all_utils] saving the plot at plots\or.png
+[2021-09-18 18:19:40,190: INFO: or] <<<<< training done successfully<<<<<
+
+[2021-09-18 18:22:24,995: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:22:25,001: INFO: or] This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2021-09-18 18:22:25,001: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-18 18:22:25,002: INFO: model] initial weights before training: 
+[-1.34005669e-04  5.18918398e-05 -2.07219534e-05]
+[2021-09-18 18:22:25,002: INFO: model] X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2021-09-18 18:22:25,004: INFO: model] --------------------
+[2021-09-18 18:22:25,004: INFO: model] for epoch: 0
+[2021-09-18 18:22:25,004: INFO: model] --------------------
+[2021-09-18 18:22:25,005: INFO: model] predicted value after forward pass: 
+[1 1 0 0]
+[2021-09-18 18:22:25,006: INFO: model] error: 
+0   -1
+1    0
+2    1
+3    1
+Name: y, dtype: int64
+[2021-09-18 18:22:25,006: INFO: model] updated weights after epoch:
+0/10 : 
+[ 0.59986599  0.30005189 -0.30002072]
+[2021-09-18 18:22:25,006: INFO: model] ##################################################
+[2021-09-18 18:22:25,007: INFO: model] --------------------
+[2021-09-18 18:22:25,007: INFO: model] for epoch: 1
+[2021-09-18 18:22:25,008: INFO: model] --------------------
+[2021-09-18 18:22:25,009: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:22:25,010: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,011: INFO: model] updated weights after epoch:
+1/10 : 
+[ 5.99865994e-01  3.00051892e-01 -2.07219534e-05]
+[2021-09-18 18:22:25,012: INFO: model] ##################################################
+[2021-09-18 18:22:25,012: INFO: model] --------------------
+[2021-09-18 18:22:25,013: INFO: model] for epoch: 2
+[2021-09-18 18:22:25,013: INFO: model] --------------------
+[2021-09-18 18:22:25,013: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:22:25,014: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,015: INFO: model] updated weights after epoch:
+2/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,015: INFO: model] ##################################################
+[2021-09-18 18:22:25,015: INFO: model] --------------------
+[2021-09-18 18:22:25,016: INFO: model] for epoch: 3
+[2021-09-18 18:22:25,016: INFO: model] --------------------
+[2021-09-18 18:22:25,016: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,017: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,018: INFO: model] updated weights after epoch:
+3/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,018: INFO: model] ##################################################
+[2021-09-18 18:22:25,018: INFO: model] --------------------
+[2021-09-18 18:22:25,019: INFO: model] for epoch: 4
+[2021-09-18 18:22:25,019: INFO: model] --------------------
+[2021-09-18 18:22:25,019: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,020: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,020: INFO: model] updated weights after epoch:
+4/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,021: INFO: model] ##################################################
+[2021-09-18 18:22:25,021: INFO: model] --------------------
+[2021-09-18 18:22:25,021: INFO: model] for epoch: 5
+[2021-09-18 18:22:25,021: INFO: model] --------------------
+[2021-09-18 18:22:25,021: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,022: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,023: INFO: model] updated weights after epoch:
+5/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,023: INFO: model] ##################################################
+[2021-09-18 18:22:25,023: INFO: model] --------------------
+[2021-09-18 18:22:25,023: INFO: model] for epoch: 6
+[2021-09-18 18:22:25,023: INFO: model] --------------------
+[2021-09-18 18:22:25,023: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,024: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,024: INFO: model] updated weights after epoch:
+6/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,024: INFO: model] ##################################################
+[2021-09-18 18:22:25,024: INFO: model] --------------------
+[2021-09-18 18:22:25,024: INFO: model] for epoch: 7
+[2021-09-18 18:22:25,024: INFO: model] --------------------
+[2021-09-18 18:22:25,025: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,025: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,025: INFO: model] updated weights after epoch:
+7/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,026: INFO: model] ##################################################
+[2021-09-18 18:22:25,026: INFO: model] --------------------
+[2021-09-18 18:22:25,026: INFO: model] for epoch: 8
+[2021-09-18 18:22:25,026: INFO: model] --------------------
+[2021-09-18 18:22:25,026: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,027: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,027: INFO: model] updated weights after epoch:
+8/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,027: INFO: model] ##################################################
+[2021-09-18 18:22:25,027: INFO: model] --------------------
+[2021-09-18 18:22:25,027: INFO: model] for epoch: 9
+[2021-09-18 18:22:25,027: INFO: model] --------------------
+[2021-09-18 18:22:25,028: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:25,028: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:25,028: INFO: model] updated weights after epoch:
+9/10 : 
+[0.59986599 0.30005189 0.29997928]
+[2021-09-18 18:22:25,028: INFO: model] ##################################################
+[2021-09-18 18:22:25,029: INFO: model] total loss: 0
+[2021-09-18 18:22:25,029: INFO: all_utils] saving the trained model
+[2021-09-18 18:22:25,033: INFO: all_utils] saved the trained model models\or.model
+[2021-09-18 18:22:25,033: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-18 18:22:25,034: INFO: all_utils] creating the base plot
+[2021-09-18 18:22:25,510: INFO: all_utils] plotting the decision regions
+[2021-09-18 18:22:25,672: INFO: all_utils] saving the plot at plots\or.png
+[2021-09-18 18:22:25,672: INFO: or] <<<<< training done successfully<<<<<
+
+[2021-09-18 18:22:53,310: INFO: or] >>>>> starting training >>>>>
+[2021-09-18 18:22:53,322: INFO: or] This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2021-09-18 18:22:53,323: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-18 18:22:53,326: INFO: model] initial weights before training: 
+[-6.42218135e-05 -3.00884375e-05 -4.94205158e-05]
+[2021-09-18 18:22:53,326: INFO: model] X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2021-09-18 18:22:53,328: INFO: model] --------------------
+[2021-09-18 18:22:53,328: INFO: model] for epoch: 0
+[2021-09-18 18:22:53,328: INFO: model] --------------------
+[2021-09-18 18:22:53,329: INFO: model] predicted value after forward pass: 
+[1 1 0 0]
+[2021-09-18 18:22:53,329: INFO: model] error: 
+0   -1
+1    0
+2    1
+3    1
+Name: y, dtype: int64
+[2021-09-18 18:22:53,329: INFO: model] updated weights after epoch:
+0/100 : 
+[ 0.59993578  0.29996991 -0.30004942]
+[2021-09-18 18:22:53,330: INFO: model] ##################################################
+[2021-09-18 18:22:53,330: INFO: model] --------------------
+[2021-09-18 18:22:53,330: INFO: model] for epoch: 1
+[2021-09-18 18:22:53,330: INFO: model] --------------------
+[2021-09-18 18:22:53,330: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:22:53,330: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,330: INFO: model] updated weights after epoch:
+1/100 : 
+[ 5.99935778e-01  2.99969912e-01 -4.94205158e-05]
+[2021-09-18 18:22:53,330: INFO: model] ##################################################
+[2021-09-18 18:22:53,331: INFO: model] --------------------
+[2021-09-18 18:22:53,331: INFO: model] for epoch: 2
+[2021-09-18 18:22:53,331: INFO: model] --------------------
+[2021-09-18 18:22:53,331: INFO: model] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-18 18:22:53,331: INFO: model] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,331: INFO: model] updated weights after epoch:
+2/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,331: INFO: model] ##################################################
+[2021-09-18 18:22:53,331: INFO: model] --------------------
+[2021-09-18 18:22:53,331: INFO: model] for epoch: 3
+[2021-09-18 18:22:53,332: INFO: model] --------------------
+[2021-09-18 18:22:53,332: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,332: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,332: INFO: model] updated weights after epoch:
+3/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,333: INFO: model] ##################################################
+[2021-09-18 18:22:53,333: INFO: model] --------------------
+[2021-09-18 18:22:53,333: INFO: model] for epoch: 4
+[2021-09-18 18:22:53,333: INFO: model] --------------------
+[2021-09-18 18:22:53,333: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,334: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,334: INFO: model] updated weights after epoch:
+4/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,335: INFO: model] ##################################################
+[2021-09-18 18:22:53,335: INFO: model] --------------------
+[2021-09-18 18:22:53,335: INFO: model] for epoch: 5
+[2021-09-18 18:22:53,335: INFO: model] --------------------
+[2021-09-18 18:22:53,335: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,336: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,337: INFO: model] updated weights after epoch:
+5/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,337: INFO: model] ##################################################
+[2021-09-18 18:22:53,337: INFO: model] --------------------
+[2021-09-18 18:22:53,337: INFO: model] for epoch: 6
+[2021-09-18 18:22:53,337: INFO: model] --------------------
+[2021-09-18 18:22:53,337: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,338: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,338: INFO: model] updated weights after epoch:
+6/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,338: INFO: model] ##################################################
+[2021-09-18 18:22:53,339: INFO: model] --------------------
+[2021-09-18 18:22:53,339: INFO: model] for epoch: 7
+[2021-09-18 18:22:53,339: INFO: model] --------------------
+[2021-09-18 18:22:53,339: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,340: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,340: INFO: model] updated weights after epoch:
+7/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,340: INFO: model] ##################################################
+[2021-09-18 18:22:53,341: INFO: model] --------------------
+[2021-09-18 18:22:53,341: INFO: model] for epoch: 8
+[2021-09-18 18:22:53,341: INFO: model] --------------------
+[2021-09-18 18:22:53,341: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,341: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,342: INFO: model] updated weights after epoch:
+8/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,342: INFO: model] ##################################################
+[2021-09-18 18:22:53,342: INFO: model] --------------------
+[2021-09-18 18:22:53,342: INFO: model] for epoch: 9
+[2021-09-18 18:22:53,342: INFO: model] --------------------
+[2021-09-18 18:22:53,342: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,343: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,343: INFO: model] updated weights after epoch:
+9/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,344: INFO: model] ##################################################
+[2021-09-18 18:22:53,344: INFO: model] --------------------
+[2021-09-18 18:22:53,344: INFO: model] for epoch: 10
+[2021-09-18 18:22:53,344: INFO: model] --------------------
+[2021-09-18 18:22:53,344: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,344: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,345: INFO: model] updated weights after epoch:
+10/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,345: INFO: model] ##################################################
+[2021-09-18 18:22:53,345: INFO: model] --------------------
+[2021-09-18 18:22:53,345: INFO: model] for epoch: 11
+[2021-09-18 18:22:53,345: INFO: model] --------------------
+[2021-09-18 18:22:53,345: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,346: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,346: INFO: model] updated weights after epoch:
+11/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,346: INFO: model] ##################################################
+[2021-09-18 18:22:53,346: INFO: model] --------------------
+[2021-09-18 18:22:53,346: INFO: model] for epoch: 12
+[2021-09-18 18:22:53,346: INFO: model] --------------------
+[2021-09-18 18:22:53,346: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,347: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,348: INFO: model] updated weights after epoch:
+12/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,348: INFO: model] ##################################################
+[2021-09-18 18:22:53,348: INFO: model] --------------------
+[2021-09-18 18:22:53,348: INFO: model] for epoch: 13
+[2021-09-18 18:22:53,348: INFO: model] --------------------
+[2021-09-18 18:22:53,348: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,349: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,349: INFO: model] updated weights after epoch:
+13/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,349: INFO: model] ##################################################
+[2021-09-18 18:22:53,349: INFO: model] --------------------
+[2021-09-18 18:22:53,349: INFO: model] for epoch: 14
+[2021-09-18 18:22:53,349: INFO: model] --------------------
+[2021-09-18 18:22:53,349: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,350: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,350: INFO: model] updated weights after epoch:
+14/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,350: INFO: model] ##################################################
+[2021-09-18 18:22:53,350: INFO: model] --------------------
+[2021-09-18 18:22:53,350: INFO: model] for epoch: 15
+[2021-09-18 18:22:53,350: INFO: model] --------------------
+[2021-09-18 18:22:53,350: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,351: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,351: INFO: model] updated weights after epoch:
+15/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,351: INFO: model] ##################################################
+[2021-09-18 18:22:53,351: INFO: model] --------------------
+[2021-09-18 18:22:53,351: INFO: model] for epoch: 16
+[2021-09-18 18:22:53,351: INFO: model] --------------------
+[2021-09-18 18:22:53,351: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,352: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,352: INFO: model] updated weights after epoch:
+16/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,352: INFO: model] ##################################################
+[2021-09-18 18:22:53,352: INFO: model] --------------------
+[2021-09-18 18:22:53,352: INFO: model] for epoch: 17
+[2021-09-18 18:22:53,352: INFO: model] --------------------
+[2021-09-18 18:22:53,352: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,353: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,353: INFO: model] updated weights after epoch:
+17/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,353: INFO: model] ##################################################
+[2021-09-18 18:22:53,353: INFO: model] --------------------
+[2021-09-18 18:22:53,353: INFO: model] for epoch: 18
+[2021-09-18 18:22:53,353: INFO: model] --------------------
+[2021-09-18 18:22:53,353: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,353: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,354: INFO: model] updated weights after epoch:
+18/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,354: INFO: model] ##################################################
+[2021-09-18 18:22:53,354: INFO: model] --------------------
+[2021-09-18 18:22:53,354: INFO: model] for epoch: 19
+[2021-09-18 18:22:53,354: INFO: model] --------------------
+[2021-09-18 18:22:53,354: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,355: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,356: INFO: model] updated weights after epoch:
+19/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,356: INFO: model] ##################################################
+[2021-09-18 18:22:53,356: INFO: model] --------------------
+[2021-09-18 18:22:53,356: INFO: model] for epoch: 20
+[2021-09-18 18:22:53,356: INFO: model] --------------------
+[2021-09-18 18:22:53,356: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,356: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,357: INFO: model] updated weights after epoch:
+20/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,357: INFO: model] ##################################################
+[2021-09-18 18:22:53,357: INFO: model] --------------------
+[2021-09-18 18:22:53,357: INFO: model] for epoch: 21
+[2021-09-18 18:22:53,357: INFO: model] --------------------
+[2021-09-18 18:22:53,357: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,357: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,358: INFO: model] updated weights after epoch:
+21/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,358: INFO: model] ##################################################
+[2021-09-18 18:22:53,358: INFO: model] --------------------
+[2021-09-18 18:22:53,358: INFO: model] for epoch: 22
+[2021-09-18 18:22:53,358: INFO: model] --------------------
+[2021-09-18 18:22:53,358: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,358: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,358: INFO: model] updated weights after epoch:
+22/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,359: INFO: model] ##################################################
+[2021-09-18 18:22:53,359: INFO: model] --------------------
+[2021-09-18 18:22:53,359: INFO: model] for epoch: 23
+[2021-09-18 18:22:53,359: INFO: model] --------------------
+[2021-09-18 18:22:53,359: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,359: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,359: INFO: model] updated weights after epoch:
+23/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,359: INFO: model] ##################################################
+[2021-09-18 18:22:53,360: INFO: model] --------------------
+[2021-09-18 18:22:53,360: INFO: model] for epoch: 24
+[2021-09-18 18:22:53,360: INFO: model] --------------------
+[2021-09-18 18:22:53,360: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,360: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,360: INFO: model] updated weights after epoch:
+24/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,360: INFO: model] ##################################################
+[2021-09-18 18:22:53,360: INFO: model] --------------------
+[2021-09-18 18:22:53,361: INFO: model] for epoch: 25
+[2021-09-18 18:22:53,361: INFO: model] --------------------
+[2021-09-18 18:22:53,361: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,361: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,361: INFO: model] updated weights after epoch:
+25/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,361: INFO: model] ##################################################
+[2021-09-18 18:22:53,362: INFO: model] --------------------
+[2021-09-18 18:22:53,362: INFO: model] for epoch: 26
+[2021-09-18 18:22:53,362: INFO: model] --------------------
+[2021-09-18 18:22:53,362: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,362: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,362: INFO: model] updated weights after epoch:
+26/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,362: INFO: model] ##################################################
+[2021-09-18 18:22:53,362: INFO: model] --------------------
+[2021-09-18 18:22:53,362: INFO: model] for epoch: 27
+[2021-09-18 18:22:53,363: INFO: model] --------------------
+[2021-09-18 18:22:53,363: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,363: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,363: INFO: model] updated weights after epoch:
+27/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,363: INFO: model] ##################################################
+[2021-09-18 18:22:53,363: INFO: model] --------------------
+[2021-09-18 18:22:53,363: INFO: model] for epoch: 28
+[2021-09-18 18:22:53,363: INFO: model] --------------------
+[2021-09-18 18:22:53,364: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,364: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,364: INFO: model] updated weights after epoch:
+28/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,364: INFO: model] ##################################################
+[2021-09-18 18:22:53,364: INFO: model] --------------------
+[2021-09-18 18:22:53,364: INFO: model] for epoch: 29
+[2021-09-18 18:22:53,364: INFO: model] --------------------
+[2021-09-18 18:22:53,365: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,365: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,365: INFO: model] updated weights after epoch:
+29/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,365: INFO: model] ##################################################
+[2021-09-18 18:22:53,365: INFO: model] --------------------
+[2021-09-18 18:22:53,365: INFO: model] for epoch: 30
+[2021-09-18 18:22:53,365: INFO: model] --------------------
+[2021-09-18 18:22:53,365: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,366: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,367: INFO: model] updated weights after epoch:
+30/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,367: INFO: model] ##################################################
+[2021-09-18 18:22:53,367: INFO: model] --------------------
+[2021-09-18 18:22:53,367: INFO: model] for epoch: 31
+[2021-09-18 18:22:53,367: INFO: model] --------------------
+[2021-09-18 18:22:53,367: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,368: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,368: INFO: model] updated weights after epoch:
+31/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,368: INFO: model] ##################################################
+[2021-09-18 18:22:53,368: INFO: model] --------------------
+[2021-09-18 18:22:53,368: INFO: model] for epoch: 32
+[2021-09-18 18:22:53,368: INFO: model] --------------------
+[2021-09-18 18:22:53,369: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,369: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,370: INFO: model] updated weights after epoch:
+32/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,370: INFO: model] ##################################################
+[2021-09-18 18:22:53,370: INFO: model] --------------------
+[2021-09-18 18:22:53,370: INFO: model] for epoch: 33
+[2021-09-18 18:22:53,370: INFO: model] --------------------
+[2021-09-18 18:22:53,370: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,370: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,371: INFO: model] updated weights after epoch:
+33/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,371: INFO: model] ##################################################
+[2021-09-18 18:22:53,371: INFO: model] --------------------
+[2021-09-18 18:22:53,371: INFO: model] for epoch: 34
+[2021-09-18 18:22:53,371: INFO: model] --------------------
+[2021-09-18 18:22:53,371: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,371: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,372: INFO: model] updated weights after epoch:
+34/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,372: INFO: model] ##################################################
+[2021-09-18 18:22:53,372: INFO: model] --------------------
+[2021-09-18 18:22:53,372: INFO: model] for epoch: 35
+[2021-09-18 18:22:53,372: INFO: model] --------------------
+[2021-09-18 18:22:53,372: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,372: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,372: INFO: model] updated weights after epoch:
+35/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,373: INFO: model] ##################################################
+[2021-09-18 18:22:53,373: INFO: model] --------------------
+[2021-09-18 18:22:53,373: INFO: model] for epoch: 36
+[2021-09-18 18:22:53,373: INFO: model] --------------------
+[2021-09-18 18:22:53,373: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,373: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,373: INFO: model] updated weights after epoch:
+36/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,373: INFO: model] ##################################################
+[2021-09-18 18:22:53,373: INFO: model] --------------------
+[2021-09-18 18:22:53,374: INFO: model] for epoch: 37
+[2021-09-18 18:22:53,374: INFO: model] --------------------
+[2021-09-18 18:22:53,374: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,374: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,375: INFO: model] updated weights after epoch:
+37/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,375: INFO: model] ##################################################
+[2021-09-18 18:22:53,375: INFO: model] --------------------
+[2021-09-18 18:22:53,375: INFO: model] for epoch: 38
+[2021-09-18 18:22:53,375: INFO: model] --------------------
+[2021-09-18 18:22:53,375: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,376: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,376: INFO: model] updated weights after epoch:
+38/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,376: INFO: model] ##################################################
+[2021-09-18 18:22:53,376: INFO: model] --------------------
+[2021-09-18 18:22:53,376: INFO: model] for epoch: 39
+[2021-09-18 18:22:53,376: INFO: model] --------------------
+[2021-09-18 18:22:53,376: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,376: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,377: INFO: model] updated weights after epoch:
+39/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,377: INFO: model] ##################################################
+[2021-09-18 18:22:53,377: INFO: model] --------------------
+[2021-09-18 18:22:53,377: INFO: model] for epoch: 40
+[2021-09-18 18:22:53,377: INFO: model] --------------------
+[2021-09-18 18:22:53,377: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,378: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,378: INFO: model] updated weights after epoch:
+40/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,378: INFO: model] ##################################################
+[2021-09-18 18:22:53,378: INFO: model] --------------------
+[2021-09-18 18:22:53,378: INFO: model] for epoch: 41
+[2021-09-18 18:22:53,378: INFO: model] --------------------
+[2021-09-18 18:22:53,378: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,379: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,379: INFO: model] updated weights after epoch:
+41/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,379: INFO: model] ##################################################
+[2021-09-18 18:22:53,379: INFO: model] --------------------
+[2021-09-18 18:22:53,379: INFO: model] for epoch: 42
+[2021-09-18 18:22:53,379: INFO: model] --------------------
+[2021-09-18 18:22:53,379: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,379: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,380: INFO: model] updated weights after epoch:
+42/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,380: INFO: model] ##################################################
+[2021-09-18 18:22:53,380: INFO: model] --------------------
+[2021-09-18 18:22:53,380: INFO: model] for epoch: 43
+[2021-09-18 18:22:53,380: INFO: model] --------------------
+[2021-09-18 18:22:53,380: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,381: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,382: INFO: model] updated weights after epoch:
+43/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,382: INFO: model] ##################################################
+[2021-09-18 18:22:53,382: INFO: model] --------------------
+[2021-09-18 18:22:53,382: INFO: model] for epoch: 44
+[2021-09-18 18:22:53,382: INFO: model] --------------------
+[2021-09-18 18:22:53,382: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,383: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,384: INFO: model] updated weights after epoch:
+44/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,384: INFO: model] ##################################################
+[2021-09-18 18:22:53,384: INFO: model] --------------------
+[2021-09-18 18:22:53,384: INFO: model] for epoch: 45
+[2021-09-18 18:22:53,384: INFO: model] --------------------
+[2021-09-18 18:22:53,385: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,385: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,386: INFO: model] updated weights after epoch:
+45/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,386: INFO: model] ##################################################
+[2021-09-18 18:22:53,386: INFO: model] --------------------
+[2021-09-18 18:22:53,386: INFO: model] for epoch: 46
+[2021-09-18 18:22:53,386: INFO: model] --------------------
+[2021-09-18 18:22:53,386: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,387: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,387: INFO: model] updated weights after epoch:
+46/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,387: INFO: model] ##################################################
+[2021-09-18 18:22:53,387: INFO: model] --------------------
+[2021-09-18 18:22:53,387: INFO: model] for epoch: 47
+[2021-09-18 18:22:53,387: INFO: model] --------------------
+[2021-09-18 18:22:53,387: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,388: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,388: INFO: model] updated weights after epoch:
+47/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,388: INFO: model] ##################################################
+[2021-09-18 18:22:53,388: INFO: model] --------------------
+[2021-09-18 18:22:53,388: INFO: model] for epoch: 48
+[2021-09-18 18:22:53,388: INFO: model] --------------------
+[2021-09-18 18:22:53,389: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,389: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,389: INFO: model] updated weights after epoch:
+48/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,389: INFO: model] ##################################################
+[2021-09-18 18:22:53,389: INFO: model] --------------------
+[2021-09-18 18:22:53,389: INFO: model] for epoch: 49
+[2021-09-18 18:22:53,389: INFO: model] --------------------
+[2021-09-18 18:22:53,389: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,390: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,390: INFO: model] updated weights after epoch:
+49/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,390: INFO: model] ##################################################
+[2021-09-18 18:22:53,390: INFO: model] --------------------
+[2021-09-18 18:22:53,390: INFO: model] for epoch: 50
+[2021-09-18 18:22:53,391: INFO: model] --------------------
+[2021-09-18 18:22:53,391: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,391: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,391: INFO: model] updated weights after epoch:
+50/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,391: INFO: model] ##################################################
+[2021-09-18 18:22:53,391: INFO: model] --------------------
+[2021-09-18 18:22:53,391: INFO: model] for epoch: 51
+[2021-09-18 18:22:53,391: INFO: model] --------------------
+[2021-09-18 18:22:53,392: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,392: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,392: INFO: model] updated weights after epoch:
+51/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,392: INFO: model] ##################################################
+[2021-09-18 18:22:53,392: INFO: model] --------------------
+[2021-09-18 18:22:53,392: INFO: model] for epoch: 52
+[2021-09-18 18:22:53,392: INFO: model] --------------------
+[2021-09-18 18:22:53,392: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,393: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,393: INFO: model] updated weights after epoch:
+52/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,393: INFO: model] ##################################################
+[2021-09-18 18:22:53,393: INFO: model] --------------------
+[2021-09-18 18:22:53,393: INFO: model] for epoch: 53
+[2021-09-18 18:22:53,393: INFO: model] --------------------
+[2021-09-18 18:22:53,393: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,394: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,394: INFO: model] updated weights after epoch:
+53/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,394: INFO: model] ##################################################
+[2021-09-18 18:22:53,394: INFO: model] --------------------
+[2021-09-18 18:22:53,394: INFO: model] for epoch: 54
+[2021-09-18 18:22:53,394: INFO: model] --------------------
+[2021-09-18 18:22:53,395: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,395: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,397: INFO: model] updated weights after epoch:
+54/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,397: INFO: model] ##################################################
+[2021-09-18 18:22:53,397: INFO: model] --------------------
+[2021-09-18 18:22:53,397: INFO: model] for epoch: 55
+[2021-09-18 18:22:53,397: INFO: model] --------------------
+[2021-09-18 18:22:53,397: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,398: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,398: INFO: model] updated weights after epoch:
+55/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,398: INFO: model] ##################################################
+[2021-09-18 18:22:53,398: INFO: model] --------------------
+[2021-09-18 18:22:53,398: INFO: model] for epoch: 56
+[2021-09-18 18:22:53,398: INFO: model] --------------------
+[2021-09-18 18:22:53,398: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,399: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,399: INFO: model] updated weights after epoch:
+56/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,399: INFO: model] ##################################################
+[2021-09-18 18:22:53,399: INFO: model] --------------------
+[2021-09-18 18:22:53,399: INFO: model] for epoch: 57
+[2021-09-18 18:22:53,399: INFO: model] --------------------
+[2021-09-18 18:22:53,400: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,400: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,401: INFO: model] updated weights after epoch:
+57/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,401: INFO: model] ##################################################
+[2021-09-18 18:22:53,401: INFO: model] --------------------
+[2021-09-18 18:22:53,401: INFO: model] for epoch: 58
+[2021-09-18 18:22:53,401: INFO: model] --------------------
+[2021-09-18 18:22:53,401: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,402: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,402: INFO: model] updated weights after epoch:
+58/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,402: INFO: model] ##################################################
+[2021-09-18 18:22:53,402: INFO: model] --------------------
+[2021-09-18 18:22:53,402: INFO: model] for epoch: 59
+[2021-09-18 18:22:53,402: INFO: model] --------------------
+[2021-09-18 18:22:53,402: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,403: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,403: INFO: model] updated weights after epoch:
+59/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,403: INFO: model] ##################################################
+[2021-09-18 18:22:53,403: INFO: model] --------------------
+[2021-09-18 18:22:53,403: INFO: model] for epoch: 60
+[2021-09-18 18:22:53,403: INFO: model] --------------------
+[2021-09-18 18:22:53,403: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,404: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,404: INFO: model] updated weights after epoch:
+60/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,404: INFO: model] ##################################################
+[2021-09-18 18:22:53,404: INFO: model] --------------------
+[2021-09-18 18:22:53,404: INFO: model] for epoch: 61
+[2021-09-18 18:22:53,404: INFO: model] --------------------
+[2021-09-18 18:22:53,404: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,405: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,405: INFO: model] updated weights after epoch:
+61/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,405: INFO: model] ##################################################
+[2021-09-18 18:22:53,405: INFO: model] --------------------
+[2021-09-18 18:22:53,405: INFO: model] for epoch: 62
+[2021-09-18 18:22:53,406: INFO: model] --------------------
+[2021-09-18 18:22:53,406: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,406: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,406: INFO: model] updated weights after epoch:
+62/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,406: INFO: model] ##################################################
+[2021-09-18 18:22:53,407: INFO: model] --------------------
+[2021-09-18 18:22:53,407: INFO: model] for epoch: 63
+[2021-09-18 18:22:53,407: INFO: model] --------------------
+[2021-09-18 18:22:53,407: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,407: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,407: INFO: model] updated weights after epoch:
+63/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,407: INFO: model] ##################################################
+[2021-09-18 18:22:53,407: INFO: model] --------------------
+[2021-09-18 18:22:53,408: INFO: model] for epoch: 64
+[2021-09-18 18:22:53,408: INFO: model] --------------------
+[2021-09-18 18:22:53,408: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,408: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,408: INFO: model] updated weights after epoch:
+64/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,408: INFO: model] ##################################################
+[2021-09-18 18:22:53,408: INFO: model] --------------------
+[2021-09-18 18:22:53,409: INFO: model] for epoch: 65
+[2021-09-18 18:22:53,409: INFO: model] --------------------
+[2021-09-18 18:22:53,409: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,409: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,409: INFO: model] updated weights after epoch:
+65/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,410: INFO: model] ##################################################
+[2021-09-18 18:22:53,410: INFO: model] --------------------
+[2021-09-18 18:22:53,410: INFO: model] for epoch: 66
+[2021-09-18 18:22:53,410: INFO: model] --------------------
+[2021-09-18 18:22:53,410: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,410: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,411: INFO: model] updated weights after epoch:
+66/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,411: INFO: model] ##################################################
+[2021-09-18 18:22:53,411: INFO: model] --------------------
+[2021-09-18 18:22:53,411: INFO: model] for epoch: 67
+[2021-09-18 18:22:53,411: INFO: model] --------------------
+[2021-09-18 18:22:53,411: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,411: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,412: INFO: model] updated weights after epoch:
+67/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,412: INFO: model] ##################################################
+[2021-09-18 18:22:53,412: INFO: model] --------------------
+[2021-09-18 18:22:53,412: INFO: model] for epoch: 68
+[2021-09-18 18:22:53,412: INFO: model] --------------------
+[2021-09-18 18:22:53,412: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,412: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,413: INFO: model] updated weights after epoch:
+68/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,413: INFO: model] ##################################################
+[2021-09-18 18:22:53,413: INFO: model] --------------------
+[2021-09-18 18:22:53,413: INFO: model] for epoch: 69
+[2021-09-18 18:22:53,413: INFO: model] --------------------
+[2021-09-18 18:22:53,413: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,413: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,413: INFO: model] updated weights after epoch:
+69/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,413: INFO: model] ##################################################
+[2021-09-18 18:22:53,414: INFO: model] --------------------
+[2021-09-18 18:22:53,414: INFO: model] for epoch: 70
+[2021-09-18 18:22:53,414: INFO: model] --------------------
+[2021-09-18 18:22:53,414: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,414: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,414: INFO: model] updated weights after epoch:
+70/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,414: INFO: model] ##################################################
+[2021-09-18 18:22:53,415: INFO: model] --------------------
+[2021-09-18 18:22:53,415: INFO: model] for epoch: 71
+[2021-09-18 18:22:53,415: INFO: model] --------------------
+[2021-09-18 18:22:53,415: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,415: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,415: INFO: model] updated weights after epoch:
+71/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,415: INFO: model] ##################################################
+[2021-09-18 18:22:53,415: INFO: model] --------------------
+[2021-09-18 18:22:53,415: INFO: model] for epoch: 72
+[2021-09-18 18:22:53,416: INFO: model] --------------------
+[2021-09-18 18:22:53,416: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,416: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,416: INFO: model] updated weights after epoch:
+72/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,416: INFO: model] ##################################################
+[2021-09-18 18:22:53,417: INFO: model] --------------------
+[2021-09-18 18:22:53,417: INFO: model] for epoch: 73
+[2021-09-18 18:22:53,417: INFO: model] --------------------
+[2021-09-18 18:22:53,417: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,417: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,417: INFO: model] updated weights after epoch:
+73/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,417: INFO: model] ##################################################
+[2021-09-18 18:22:53,417: INFO: model] --------------------
+[2021-09-18 18:22:53,417: INFO: model] for epoch: 74
+[2021-09-18 18:22:53,418: INFO: model] --------------------
+[2021-09-18 18:22:53,418: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,418: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,418: INFO: model] updated weights after epoch:
+74/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,418: INFO: model] ##################################################
+[2021-09-18 18:22:53,418: INFO: model] --------------------
+[2021-09-18 18:22:53,419: INFO: model] for epoch: 75
+[2021-09-18 18:22:53,419: INFO: model] --------------------
+[2021-09-18 18:22:53,419: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,419: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,419: INFO: model] updated weights after epoch:
+75/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,419: INFO: model] ##################################################
+[2021-09-18 18:22:53,419: INFO: model] --------------------
+[2021-09-18 18:22:53,419: INFO: model] for epoch: 76
+[2021-09-18 18:22:53,419: INFO: model] --------------------
+[2021-09-18 18:22:53,420: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,420: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,420: INFO: model] updated weights after epoch:
+76/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,420: INFO: model] ##################################################
+[2021-09-18 18:22:53,420: INFO: model] --------------------
+[2021-09-18 18:22:53,420: INFO: model] for epoch: 77
+[2021-09-18 18:22:53,420: INFO: model] --------------------
+[2021-09-18 18:22:53,421: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,421: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,421: INFO: model] updated weights after epoch:
+77/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,421: INFO: model] ##################################################
+[2021-09-18 18:22:53,421: INFO: model] --------------------
+[2021-09-18 18:22:53,421: INFO: model] for epoch: 78
+[2021-09-18 18:22:53,421: INFO: model] --------------------
+[2021-09-18 18:22:53,421: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,422: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,422: INFO: model] updated weights after epoch:
+78/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,422: INFO: model] ##################################################
+[2021-09-18 18:22:53,422: INFO: model] --------------------
+[2021-09-18 18:22:53,422: INFO: model] for epoch: 79
+[2021-09-18 18:22:53,422: INFO: model] --------------------
+[2021-09-18 18:22:53,422: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,423: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,423: INFO: model] updated weights after epoch:
+79/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,423: INFO: model] ##################################################
+[2021-09-18 18:22:53,423: INFO: model] --------------------
+[2021-09-18 18:22:53,423: INFO: model] for epoch: 80
+[2021-09-18 18:22:53,423: INFO: model] --------------------
+[2021-09-18 18:22:53,423: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,424: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,424: INFO: model] updated weights after epoch:
+80/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,424: INFO: model] ##################################################
+[2021-09-18 18:22:53,424: INFO: model] --------------------
+[2021-09-18 18:22:53,424: INFO: model] for epoch: 81
+[2021-09-18 18:22:53,424: INFO: model] --------------------
+[2021-09-18 18:22:53,424: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,425: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,425: INFO: model] updated weights after epoch:
+81/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,425: INFO: model] ##################################################
+[2021-09-18 18:22:53,425: INFO: model] --------------------
+[2021-09-18 18:22:53,425: INFO: model] for epoch: 82
+[2021-09-18 18:22:53,425: INFO: model] --------------------
+[2021-09-18 18:22:53,425: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,426: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,426: INFO: model] updated weights after epoch:
+82/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,426: INFO: model] ##################################################
+[2021-09-18 18:22:53,426: INFO: model] --------------------
+[2021-09-18 18:22:53,426: INFO: model] for epoch: 83
+[2021-09-18 18:22:53,426: INFO: model] --------------------
+[2021-09-18 18:22:53,426: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,427: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,427: INFO: model] updated weights after epoch:
+83/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,427: INFO: model] ##################################################
+[2021-09-18 18:22:53,427: INFO: model] --------------------
+[2021-09-18 18:22:53,427: INFO: model] for epoch: 84
+[2021-09-18 18:22:53,427: INFO: model] --------------------
+[2021-09-18 18:22:53,427: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,427: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,428: INFO: model] updated weights after epoch:
+84/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,428: INFO: model] ##################################################
+[2021-09-18 18:22:53,428: INFO: model] --------------------
+[2021-09-18 18:22:53,428: INFO: model] for epoch: 85
+[2021-09-18 18:22:53,428: INFO: model] --------------------
+[2021-09-18 18:22:53,428: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,429: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,429: INFO: model] updated weights after epoch:
+85/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,429: INFO: model] ##################################################
+[2021-09-18 18:22:53,429: INFO: model] --------------------
+[2021-09-18 18:22:53,429: INFO: model] for epoch: 86
+[2021-09-18 18:22:53,430: INFO: model] --------------------
+[2021-09-18 18:22:53,430: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,431: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,432: INFO: model] updated weights after epoch:
+86/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,432: INFO: model] ##################################################
+[2021-09-18 18:22:53,432: INFO: model] --------------------
+[2021-09-18 18:22:53,432: INFO: model] for epoch: 87
+[2021-09-18 18:22:53,432: INFO: model] --------------------
+[2021-09-18 18:22:53,432: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,433: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,433: INFO: model] updated weights after epoch:
+87/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,433: INFO: model] ##################################################
+[2021-09-18 18:22:53,433: INFO: model] --------------------
+[2021-09-18 18:22:53,433: INFO: model] for epoch: 88
+[2021-09-18 18:22:53,434: INFO: model] --------------------
+[2021-09-18 18:22:53,434: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,434: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,435: INFO: model] updated weights after epoch:
+88/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,435: INFO: model] ##################################################
+[2021-09-18 18:22:53,435: INFO: model] --------------------
+[2021-09-18 18:22:53,435: INFO: model] for epoch: 89
+[2021-09-18 18:22:53,435: INFO: model] --------------------
+[2021-09-18 18:22:53,435: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,436: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,436: INFO: model] updated weights after epoch:
+89/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,436: INFO: model] ##################################################
+[2021-09-18 18:22:53,436: INFO: model] --------------------
+[2021-09-18 18:22:53,436: INFO: model] for epoch: 90
+[2021-09-18 18:22:53,436: INFO: model] --------------------
+[2021-09-18 18:22:53,436: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,437: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,437: INFO: model] updated weights after epoch:
+90/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,437: INFO: model] ##################################################
+[2021-09-18 18:22:53,437: INFO: model] --------------------
+[2021-09-18 18:22:53,437: INFO: model] for epoch: 91
+[2021-09-18 18:22:53,437: INFO: model] --------------------
+[2021-09-18 18:22:53,437: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,438: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,438: INFO: model] updated weights after epoch:
+91/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,438: INFO: model] ##################################################
+[2021-09-18 18:22:53,438: INFO: model] --------------------
+[2021-09-18 18:22:53,438: INFO: model] for epoch: 92
+[2021-09-18 18:22:53,439: INFO: model] --------------------
+[2021-09-18 18:22:53,439: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,439: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,439: INFO: model] updated weights after epoch:
+92/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,440: INFO: model] ##################################################
+[2021-09-18 18:22:53,440: INFO: model] --------------------
+[2021-09-18 18:22:53,440: INFO: model] for epoch: 93
+[2021-09-18 18:22:53,440: INFO: model] --------------------
+[2021-09-18 18:22:53,440: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,440: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,441: INFO: model] updated weights after epoch:
+93/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,441: INFO: model] ##################################################
+[2021-09-18 18:22:53,441: INFO: model] --------------------
+[2021-09-18 18:22:53,441: INFO: model] for epoch: 94
+[2021-09-18 18:22:53,441: INFO: model] --------------------
+[2021-09-18 18:22:53,441: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,441: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,442: INFO: model] updated weights after epoch:
+94/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,442: INFO: model] ##################################################
+[2021-09-18 18:22:53,442: INFO: model] --------------------
+[2021-09-18 18:22:53,442: INFO: model] for epoch: 95
+[2021-09-18 18:22:53,442: INFO: model] --------------------
+[2021-09-18 18:22:53,442: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,443: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,443: INFO: model] updated weights after epoch:
+95/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,443: INFO: model] ##################################################
+[2021-09-18 18:22:53,443: INFO: model] --------------------
+[2021-09-18 18:22:53,443: INFO: model] for epoch: 96
+[2021-09-18 18:22:53,443: INFO: model] --------------------
+[2021-09-18 18:22:53,443: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,445: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,446: INFO: model] updated weights after epoch:
+96/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,446: INFO: model] ##################################################
+[2021-09-18 18:22:53,446: INFO: model] --------------------
+[2021-09-18 18:22:53,446: INFO: model] for epoch: 97
+[2021-09-18 18:22:53,446: INFO: model] --------------------
+[2021-09-18 18:22:53,446: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,448: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,448: INFO: model] updated weights after epoch:
+97/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,449: INFO: model] ##################################################
+[2021-09-18 18:22:53,449: INFO: model] --------------------
+[2021-09-18 18:22:53,449: INFO: model] for epoch: 98
+[2021-09-18 18:22:53,449: INFO: model] --------------------
+[2021-09-18 18:22:53,449: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,451: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,451: INFO: model] updated weights after epoch:
+98/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,452: INFO: model] ##################################################
+[2021-09-18 18:22:53,452: INFO: model] --------------------
+[2021-09-18 18:22:53,452: INFO: model] for epoch: 99
+[2021-09-18 18:22:53,452: INFO: model] --------------------
+[2021-09-18 18:22:53,452: INFO: model] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-18 18:22:53,453: INFO: model] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-18 18:22:53,453: INFO: model] updated weights after epoch:
+99/100 : 
+[0.59993578 0.29996991 0.29995058]
+[2021-09-18 18:22:53,453: INFO: model] ##################################################
+[2021-09-18 18:22:53,454: INFO: model] total loss: 0
+[2021-09-18 18:22:53,454: INFO: all_utils] saving the trained model
+[2021-09-18 18:22:53,457: INFO: all_utils] saved the trained model models\or.model
+[2021-09-18 18:22:53,458: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-18 18:22:53,459: INFO: all_utils] creating the base plot
+[2021-09-18 18:22:53,939: INFO: all_utils] plotting the decision regions
+[2021-09-18 18:22:54,081: INFO: all_utils] saving the plot at plots\or.png
+[2021-09-18 18:22:54,082: INFO: or] <<<<< training done successfully<<<<<
+
+[2021-09-19 18:31:32,027: INFO: NEWor] >>>>> starting training >>>>>
+[2021-09-19 18:31:32,037: INFO: NEWor] This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2021-09-19 18:31:32,038: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-19 18:31:32,042: INFO: perceptron] initial weights before training: 
+[ 2.67269119e-05 -5.01155959e-06 -1.27688613e-04]
+[2021-09-19 18:31:32,043: INFO: perceptron] X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2021-09-19 18:31:32,046: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,046: INFO: perceptron] for epoch: 0
+[2021-09-19 18:31:32,046: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,047: INFO: perceptron] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-19 18:31:32,048: INFO: perceptron] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,049: INFO: perceptron] updated weights after epoch:
+0/100 : 
+[ 2.67269119e-05 -5.01155959e-06  2.99872311e-01]
+[2021-09-19 18:31:32,049: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,050: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,050: INFO: perceptron] for epoch: 1
+[2021-09-19 18:31:32,050: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,051: INFO: perceptron] predicted value after forward pass: 
+[0 0 0 0]
+[2021-09-19 18:31:32,052: INFO: perceptron] error: 
+0    0
+1    1
+2    1
+3    1
+Name: y, dtype: int64
+[2021-09-19 18:31:32,053: INFO: perceptron] updated weights after epoch:
+1/100 : 
+[ 0.60002673  0.59999499 -0.60012769]
+[2021-09-19 18:31:32,053: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,053: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,053: INFO: perceptron] for epoch: 2
+[2021-09-19 18:31:32,054: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,054: INFO: perceptron] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-19 18:31:32,055: INFO: perceptron] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,056: INFO: perceptron] updated weights after epoch:
+2/100 : 
+[ 0.60002673  0.59999499 -0.30012769]
+[2021-09-19 18:31:32,056: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,056: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,056: INFO: perceptron] for epoch: 3
+[2021-09-19 18:31:32,056: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,057: INFO: perceptron] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-19 18:31:32,057: INFO: perceptron] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,058: INFO: perceptron] updated weights after epoch:
+3/100 : 
+[ 6.00026727e-01  5.99994988e-01 -1.27688613e-04]
+[2021-09-19 18:31:32,058: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,058: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,058: INFO: perceptron] for epoch: 4
+[2021-09-19 18:31:32,059: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,059: INFO: perceptron] predicted value after forward pass: 
+[1 1 1 1]
+[2021-09-19 18:31:32,059: INFO: perceptron] error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,060: INFO: perceptron] updated weights after epoch:
+4/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,060: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,060: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,060: INFO: perceptron] for epoch: 5
+[2021-09-19 18:31:32,060: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,060: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,061: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,061: INFO: perceptron] updated weights after epoch:
+5/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,061: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,061: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,061: INFO: perceptron] for epoch: 6
+[2021-09-19 18:31:32,061: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,061: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,062: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,062: INFO: perceptron] updated weights after epoch:
+6/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,062: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,062: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,062: INFO: perceptron] for epoch: 7
+[2021-09-19 18:31:32,062: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,062: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,063: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,063: INFO: perceptron] updated weights after epoch:
+7/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,063: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,063: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,063: INFO: perceptron] for epoch: 8
+[2021-09-19 18:31:32,063: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,064: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,064: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,064: INFO: perceptron] updated weights after epoch:
+8/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,064: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,065: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,065: INFO: perceptron] for epoch: 9
+[2021-09-19 18:31:32,065: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,065: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,065: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,065: INFO: perceptron] updated weights after epoch:
+9/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,066: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,066: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,066: INFO: perceptron] for epoch: 10
+[2021-09-19 18:31:32,066: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,066: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,066: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,067: INFO: perceptron] updated weights after epoch:
+10/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,067: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,067: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,067: INFO: perceptron] for epoch: 11
+[2021-09-19 18:31:32,067: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,067: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,067: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,068: INFO: perceptron] updated weights after epoch:
+11/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,068: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,068: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,068: INFO: perceptron] for epoch: 12
+[2021-09-19 18:31:32,068: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,068: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,068: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,068: INFO: perceptron] updated weights after epoch:
+12/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,069: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,069: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,069: INFO: perceptron] for epoch: 13
+[2021-09-19 18:31:32,069: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,069: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,070: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,070: INFO: perceptron] updated weights after epoch:
+13/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,070: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,070: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,070: INFO: perceptron] for epoch: 14
+[2021-09-19 18:31:32,070: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,070: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,071: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,071: INFO: perceptron] updated weights after epoch:
+14/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,071: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,071: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,071: INFO: perceptron] for epoch: 15
+[2021-09-19 18:31:32,071: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,071: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,072: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,072: INFO: perceptron] updated weights after epoch:
+15/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,072: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,072: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,072: INFO: perceptron] for epoch: 16
+[2021-09-19 18:31:32,072: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,072: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,073: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,073: INFO: perceptron] updated weights after epoch:
+16/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,073: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,073: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,073: INFO: perceptron] for epoch: 17
+[2021-09-19 18:31:32,073: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,073: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,074: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,074: INFO: perceptron] updated weights after epoch:
+17/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,074: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,074: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,074: INFO: perceptron] for epoch: 18
+[2021-09-19 18:31:32,074: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,074: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,075: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,075: INFO: perceptron] updated weights after epoch:
+18/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,075: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,075: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,075: INFO: perceptron] for epoch: 19
+[2021-09-19 18:31:32,075: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,075: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,075: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,076: INFO: perceptron] updated weights after epoch:
+19/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,076: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,076: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,076: INFO: perceptron] for epoch: 20
+[2021-09-19 18:31:32,076: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,076: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,076: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,077: INFO: perceptron] updated weights after epoch:
+20/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,077: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,077: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,077: INFO: perceptron] for epoch: 21
+[2021-09-19 18:31:32,077: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,077: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,077: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,077: INFO: perceptron] updated weights after epoch:
+21/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,078: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,078: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,078: INFO: perceptron] for epoch: 22
+[2021-09-19 18:31:32,078: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,078: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,078: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,078: INFO: perceptron] updated weights after epoch:
+22/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,078: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,079: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,079: INFO: perceptron] for epoch: 23
+[2021-09-19 18:31:32,079: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,079: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,079: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,079: INFO: perceptron] updated weights after epoch:
+23/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,079: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,079: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,080: INFO: perceptron] for epoch: 24
+[2021-09-19 18:31:32,080: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,080: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,080: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,080: INFO: perceptron] updated weights after epoch:
+24/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,080: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,081: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,081: INFO: perceptron] for epoch: 25
+[2021-09-19 18:31:32,081: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,081: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,081: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,081: INFO: perceptron] updated weights after epoch:
+25/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,081: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,082: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,082: INFO: perceptron] for epoch: 26
+[2021-09-19 18:31:32,082: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,082: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,082: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,082: INFO: perceptron] updated weights after epoch:
+26/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,082: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,083: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,083: INFO: perceptron] for epoch: 27
+[2021-09-19 18:31:32,083: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,083: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,083: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,083: INFO: perceptron] updated weights after epoch:
+27/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,083: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,083: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,084: INFO: perceptron] for epoch: 28
+[2021-09-19 18:31:32,084: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,084: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,084: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,084: INFO: perceptron] updated weights after epoch:
+28/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,084: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,084: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,084: INFO: perceptron] for epoch: 29
+[2021-09-19 18:31:32,085: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,085: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,085: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,085: INFO: perceptron] updated weights after epoch:
+29/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,085: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,085: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,085: INFO: perceptron] for epoch: 30
+[2021-09-19 18:31:32,085: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,086: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,086: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,086: INFO: perceptron] updated weights after epoch:
+30/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,086: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,086: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,086: INFO: perceptron] for epoch: 31
+[2021-09-19 18:31:32,086: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,087: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,087: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,087: INFO: perceptron] updated weights after epoch:
+31/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,087: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,087: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,087: INFO: perceptron] for epoch: 32
+[2021-09-19 18:31:32,087: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,087: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,088: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,088: INFO: perceptron] updated weights after epoch:
+32/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,088: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,088: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,088: INFO: perceptron] for epoch: 33
+[2021-09-19 18:31:32,088: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,088: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,089: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,089: INFO: perceptron] updated weights after epoch:
+33/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,089: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,089: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,089: INFO: perceptron] for epoch: 34
+[2021-09-19 18:31:32,089: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,089: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,090: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,090: INFO: perceptron] updated weights after epoch:
+34/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,090: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,090: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,090: INFO: perceptron] for epoch: 35
+[2021-09-19 18:31:32,091: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,091: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,091: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,091: INFO: perceptron] updated weights after epoch:
+35/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,091: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,091: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,092: INFO: perceptron] for epoch: 36
+[2021-09-19 18:31:32,092: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,092: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,092: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,092: INFO: perceptron] updated weights after epoch:
+36/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,092: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,092: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,093: INFO: perceptron] for epoch: 37
+[2021-09-19 18:31:32,093: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,093: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,093: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,093: INFO: perceptron] updated weights after epoch:
+37/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,094: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,094: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,094: INFO: perceptron] for epoch: 38
+[2021-09-19 18:31:32,094: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,094: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,094: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,094: INFO: perceptron] updated weights after epoch:
+38/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,095: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,095: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,095: INFO: perceptron] for epoch: 39
+[2021-09-19 18:31:32,095: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,095: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,095: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,095: INFO: perceptron] updated weights after epoch:
+39/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,095: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,096: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,096: INFO: perceptron] for epoch: 40
+[2021-09-19 18:31:32,096: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,096: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,097: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,097: INFO: perceptron] updated weights after epoch:
+40/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,097: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,097: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,097: INFO: perceptron] for epoch: 41
+[2021-09-19 18:31:32,097: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,098: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,099: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,099: INFO: perceptron] updated weights after epoch:
+41/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,100: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,100: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,100: INFO: perceptron] for epoch: 42
+[2021-09-19 18:31:32,100: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,100: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,101: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,102: INFO: perceptron] updated weights after epoch:
+42/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,102: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,102: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,102: INFO: perceptron] for epoch: 43
+[2021-09-19 18:31:32,102: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,102: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,103: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,103: INFO: perceptron] updated weights after epoch:
+43/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,104: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,104: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,104: INFO: perceptron] for epoch: 44
+[2021-09-19 18:31:32,104: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,104: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,105: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,105: INFO: perceptron] updated weights after epoch:
+44/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,105: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,105: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,105: INFO: perceptron] for epoch: 45
+[2021-09-19 18:31:32,105: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,105: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,106: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,106: INFO: perceptron] updated weights after epoch:
+45/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,106: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,106: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,106: INFO: perceptron] for epoch: 46
+[2021-09-19 18:31:32,106: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,106: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,107: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,107: INFO: perceptron] updated weights after epoch:
+46/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,107: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,107: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,107: INFO: perceptron] for epoch: 47
+[2021-09-19 18:31:32,107: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,107: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,108: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,108: INFO: perceptron] updated weights after epoch:
+47/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,108: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,108: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,108: INFO: perceptron] for epoch: 48
+[2021-09-19 18:31:32,108: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,108: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,108: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,109: INFO: perceptron] updated weights after epoch:
+48/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,109: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,109: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,109: INFO: perceptron] for epoch: 49
+[2021-09-19 18:31:32,109: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,109: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,109: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,110: INFO: perceptron] updated weights after epoch:
+49/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,110: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,110: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,110: INFO: perceptron] for epoch: 50
+[2021-09-19 18:31:32,110: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,110: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,110: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,111: INFO: perceptron] updated weights after epoch:
+50/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,111: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,111: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,111: INFO: perceptron] for epoch: 51
+[2021-09-19 18:31:32,111: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,111: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,112: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,112: INFO: perceptron] updated weights after epoch:
+51/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,112: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,112: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,112: INFO: perceptron] for epoch: 52
+[2021-09-19 18:31:32,112: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,112: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,113: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,113: INFO: perceptron] updated weights after epoch:
+52/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,113: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,113: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,113: INFO: perceptron] for epoch: 53
+[2021-09-19 18:31:32,113: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,113: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,114: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,114: INFO: perceptron] updated weights after epoch:
+53/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,114: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,114: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,114: INFO: perceptron] for epoch: 54
+[2021-09-19 18:31:32,114: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,114: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,114: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,115: INFO: perceptron] updated weights after epoch:
+54/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,115: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,115: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,115: INFO: perceptron] for epoch: 55
+[2021-09-19 18:31:32,115: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,115: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,115: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,115: INFO: perceptron] updated weights after epoch:
+55/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,116: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,116: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,116: INFO: perceptron] for epoch: 56
+[2021-09-19 18:31:32,116: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,116: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,116: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,116: INFO: perceptron] updated weights after epoch:
+56/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,116: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,116: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,116: INFO: perceptron] for epoch: 57
+[2021-09-19 18:31:32,117: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,117: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,117: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,117: INFO: perceptron] updated weights after epoch:
+57/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,117: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,117: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,117: INFO: perceptron] for epoch: 58
+[2021-09-19 18:31:32,117: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,118: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,118: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,118: INFO: perceptron] updated weights after epoch:
+58/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,118: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,118: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,118: INFO: perceptron] for epoch: 59
+[2021-09-19 18:31:32,118: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,118: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,119: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,119: INFO: perceptron] updated weights after epoch:
+59/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,119: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,119: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,119: INFO: perceptron] for epoch: 60
+[2021-09-19 18:31:32,119: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,119: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,120: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,120: INFO: perceptron] updated weights after epoch:
+60/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,120: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,120: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,120: INFO: perceptron] for epoch: 61
+[2021-09-19 18:31:32,120: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,120: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,121: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,121: INFO: perceptron] updated weights after epoch:
+61/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,121: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,121: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,121: INFO: perceptron] for epoch: 62
+[2021-09-19 18:31:32,121: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,121: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,122: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,122: INFO: perceptron] updated weights after epoch:
+62/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,122: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,122: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,122: INFO: perceptron] for epoch: 63
+[2021-09-19 18:31:32,122: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,122: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,123: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,123: INFO: perceptron] updated weights after epoch:
+63/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,123: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,123: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,123: INFO: perceptron] for epoch: 64
+[2021-09-19 18:31:32,123: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,123: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,123: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,124: INFO: perceptron] updated weights after epoch:
+64/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,124: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,124: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,124: INFO: perceptron] for epoch: 65
+[2021-09-19 18:31:32,124: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,124: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,124: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,125: INFO: perceptron] updated weights after epoch:
+65/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,125: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,125: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,125: INFO: perceptron] for epoch: 66
+[2021-09-19 18:31:32,125: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,125: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,125: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,125: INFO: perceptron] updated weights after epoch:
+66/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,125: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,126: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,126: INFO: perceptron] for epoch: 67
+[2021-09-19 18:31:32,126: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,126: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,126: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,126: INFO: perceptron] updated weights after epoch:
+67/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,126: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,126: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,126: INFO: perceptron] for epoch: 68
+[2021-09-19 18:31:32,126: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,127: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,127: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,128: INFO: perceptron] updated weights after epoch:
+68/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,128: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,128: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,128: INFO: perceptron] for epoch: 69
+[2021-09-19 18:31:32,128: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,128: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,129: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,129: INFO: perceptron] updated weights after epoch:
+69/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,129: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,129: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,130: INFO: perceptron] for epoch: 70
+[2021-09-19 18:31:32,130: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,130: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,130: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,131: INFO: perceptron] updated weights after epoch:
+70/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,131: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,131: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,131: INFO: perceptron] for epoch: 71
+[2021-09-19 18:31:32,131: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,131: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,132: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,132: INFO: perceptron] updated weights after epoch:
+71/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,132: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,132: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,132: INFO: perceptron] for epoch: 72
+[2021-09-19 18:31:32,132: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,132: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,132: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,133: INFO: perceptron] updated weights after epoch:
+72/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,133: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,133: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,133: INFO: perceptron] for epoch: 73
+[2021-09-19 18:31:32,133: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,133: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,133: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,134: INFO: perceptron] updated weights after epoch:
+73/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,134: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,134: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,134: INFO: perceptron] for epoch: 74
+[2021-09-19 18:31:32,134: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,134: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,134: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,135: INFO: perceptron] updated weights after epoch:
+74/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,135: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,135: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,135: INFO: perceptron] for epoch: 75
+[2021-09-19 18:31:32,135: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,135: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,135: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,135: INFO: perceptron] updated weights after epoch:
+75/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,136: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,136: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,136: INFO: perceptron] for epoch: 76
+[2021-09-19 18:31:32,136: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,136: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,136: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,136: INFO: perceptron] updated weights after epoch:
+76/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,136: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,137: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,137: INFO: perceptron] for epoch: 77
+[2021-09-19 18:31:32,137: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,137: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,137: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,137: INFO: perceptron] updated weights after epoch:
+77/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,137: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,137: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,138: INFO: perceptron] for epoch: 78
+[2021-09-19 18:31:32,138: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,138: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,138: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,138: INFO: perceptron] updated weights after epoch:
+78/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,138: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,139: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,139: INFO: perceptron] for epoch: 79
+[2021-09-19 18:31:32,139: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,139: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,140: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,140: INFO: perceptron] updated weights after epoch:
+79/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,140: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,140: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,140: INFO: perceptron] for epoch: 80
+[2021-09-19 18:31:32,140: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,140: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,141: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,141: INFO: perceptron] updated weights after epoch:
+80/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,141: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,141: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,141: INFO: perceptron] for epoch: 81
+[2021-09-19 18:31:32,141: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,141: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,142: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,142: INFO: perceptron] updated weights after epoch:
+81/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,142: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,142: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,142: INFO: perceptron] for epoch: 82
+[2021-09-19 18:31:32,142: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,142: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,143: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,143: INFO: perceptron] updated weights after epoch:
+82/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,144: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,144: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,144: INFO: perceptron] for epoch: 83
+[2021-09-19 18:31:32,144: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,144: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,144: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,144: INFO: perceptron] updated weights after epoch:
+83/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,144: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,145: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,145: INFO: perceptron] for epoch: 84
+[2021-09-19 18:31:32,145: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,145: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,145: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,145: INFO: perceptron] updated weights after epoch:
+84/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,145: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,145: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,146: INFO: perceptron] for epoch: 85
+[2021-09-19 18:31:32,146: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,146: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,146: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,146: INFO: perceptron] updated weights after epoch:
+85/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,146: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,148: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,148: INFO: perceptron] for epoch: 86
+[2021-09-19 18:31:32,148: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,149: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,149: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,150: INFO: perceptron] updated weights after epoch:
+86/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,150: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,150: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,150: INFO: perceptron] for epoch: 87
+[2021-09-19 18:31:32,150: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,150: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,150: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,151: INFO: perceptron] updated weights after epoch:
+87/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,151: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,151: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,151: INFO: perceptron] for epoch: 88
+[2021-09-19 18:31:32,151: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,151: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,151: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,152: INFO: perceptron] updated weights after epoch:
+88/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,152: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,152: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,152: INFO: perceptron] for epoch: 89
+[2021-09-19 18:31:32,152: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,152: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,152: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,152: INFO: perceptron] updated weights after epoch:
+89/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,153: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,153: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,153: INFO: perceptron] for epoch: 90
+[2021-09-19 18:31:32,153: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,153: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,153: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,154: INFO: perceptron] updated weights after epoch:
+90/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,154: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,154: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,154: INFO: perceptron] for epoch: 91
+[2021-09-19 18:31:32,154: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,154: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,154: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,154: INFO: perceptron] updated weights after epoch:
+91/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,155: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,155: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,155: INFO: perceptron] for epoch: 92
+[2021-09-19 18:31:32,155: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,155: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,155: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,156: INFO: perceptron] updated weights after epoch:
+92/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,156: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,156: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,156: INFO: perceptron] for epoch: 93
+[2021-09-19 18:31:32,156: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,156: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,156: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,157: INFO: perceptron] updated weights after epoch:
+93/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,157: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,157: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,157: INFO: perceptron] for epoch: 94
+[2021-09-19 18:31:32,157: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,157: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,157: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,158: INFO: perceptron] updated weights after epoch:
+94/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,158: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,158: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,158: INFO: perceptron] for epoch: 95
+[2021-09-19 18:31:32,158: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,158: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,158: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,158: INFO: perceptron] updated weights after epoch:
+95/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,158: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,159: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,159: INFO: perceptron] for epoch: 96
+[2021-09-19 18:31:32,159: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,159: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,159: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,159: INFO: perceptron] updated weights after epoch:
+96/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,159: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,160: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,160: INFO: perceptron] for epoch: 97
+[2021-09-19 18:31:32,160: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,160: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,160: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,160: INFO: perceptron] updated weights after epoch:
+97/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,161: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,161: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,161: INFO: perceptron] for epoch: 98
+[2021-09-19 18:31:32,161: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,161: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,161: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,161: INFO: perceptron] updated weights after epoch:
+98/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,161: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,162: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,162: INFO: perceptron] for epoch: 99
+[2021-09-19 18:31:32,162: INFO: perceptron] --------------------
+[2021-09-19 18:31:32,162: INFO: perceptron] predicted value after forward pass: 
+[0 1 1 1]
+[2021-09-19 18:31:32,162: INFO: perceptron] error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2021-09-19 18:31:32,162: INFO: perceptron] updated weights after epoch:
+99/100 : 
+[0.60002673 0.59999499 0.29987231]
+[2021-09-19 18:31:32,162: INFO: perceptron] ##################################################
+[2021-09-19 18:31:32,163: INFO: perceptron] total loss: 0
+[2021-09-19 18:31:32,163: INFO: all_utils] saving the trained model
+[2021-09-19 18:31:32,167: INFO: all_utils] saved the trained model models\or.model
+[2021-09-19 18:31:32,167: INFO: all_utils] Preparing the data by segregating the independent and dependent variables
+[2021-09-19 18:31:32,168: INFO: all_utils] creating the base plot
+[2021-09-19 18:31:32,783: INFO: all_utils] plotting the decision regions
+[2021-09-19 18:31:32,929: INFO: all_utils] saving the plot at plots\or.png
+[2021-09-19 18:31:32,929: INFO: NEWor] <<<<< training done successfully<<<<<
+
